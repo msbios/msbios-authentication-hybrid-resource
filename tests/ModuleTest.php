@@ -3,14 +3,14 @@
  * @access protected
  * @author Judzhin Miles <info[woof-woof]msbios.com>
  */
-namespace MSBiosTest\Authentication\Hybrid\Doctrine;
+namespace MSBiosTest\Authentication\Hybrid\Resource;
 
-use MSBios\Authentication\Hybrid\Doctrine\Module;
+use MSBios\Authentication\Hybrid\Resource\Module;
 use PHPUnit\Framework\TestCase;
 
 /**
  * Class ModuleTest
- * @package MSBiosTest\Authentication\Hybrid\Doctrine
+ * @package MSBiosTest\Authentication\Hybrid\Resource
  */
 class ModuleTest extends TestCase
 {

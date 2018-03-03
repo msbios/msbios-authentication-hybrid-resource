@@ -3,7 +3,7 @@
  * @access protected
  * @author Judzhin Miles <info[woof-woof]msbios.com>
  */
-namespace MSBios\Authentication\Hybrid\Doctrine;
+namespace MSBios\Authentication\Hybrid\Resource;
 
 use MSBios\AutoloaderAwareInterface;
 use MSBios\AutoloaderAwareTrait;
@@ -15,7 +15,7 @@ use Zend\Loader\StandardAutoloader;
 
 /**
  * Class Module
- * @package MSBios\Authentication\Hybrid\Doctrine
+ * @package MSBios\Authentication\Hybrid\Resource
  */
 class Module implements
     ModuleInterface,
@@ -23,7 +23,7 @@ class Module implements
     AutoloaderAwareInterface
 {
     /** @const VERSION */
-    const VERSION = '1.0.1';
+    const VERSION = '1.0.2';
 
     /**
      * Returns configuration to merge with application configuration
